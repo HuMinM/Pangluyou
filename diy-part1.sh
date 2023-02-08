@@ -16,10 +16,10 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lixunhuan/
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lixunhuan/luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lixunhuan/luci-app-vssr
+# rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon
+# git clone https://github.com/jerrykuku/lua-maxminddb.git package/lixunhuan/
+# git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lixunhuan/luci-app-argon-config
+# git clone https://github.com/jerrykuku/luci-app-vssr.git package/lixunhuan/luci-app-vssr
 #mkdir -p package/lixunhuan
 #echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
